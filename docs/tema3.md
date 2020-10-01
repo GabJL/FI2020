@@ -9,5 +9,5 @@ En este tema se dan los conceptos básicos del lenguage de programación C++. So
 5. Operaciones de Entrada / Salida
 
 ## Sesiones:
-* [Sesión 1 (29/09/2020)](tema3/s1.md): Introducción a la asignatura y conceptos básicos (estructura de un programa en C++)
-* [Sesión 2 (01/10/2020)](tema3/s2.md): ...
+* [Sesión 1 (29/09/2020)](tema3/s1.md): Introducción a la asignatura y conceptos introductorios (compilación, pasos en la resolución de un problema...).
+* [Sesión 2 (01/10/2020)](tema3/s2.md): Estructura básica de un programa en C++ y concepto de variable.
