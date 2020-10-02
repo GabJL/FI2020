@@ -38,7 +38,7 @@ int main(){
     lima = rojo / color + rojo % color - 356;	
     cout << "Caso 10: " << lima << endl;
 
-    verde = morado % 2; // Esto no es compilable debe comentarse
+    // verde = morado % 2; // Esto no es compilable debe comentarse
     cout << "Caso 11: " << verde << endl;
 
     return 0;
