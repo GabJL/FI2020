@@ -13,4 +13,4 @@ En este tema se dan los conceptos básicos del lenguage de programación C++. So
 * [Sesión 2 (01/10/2020)](tema3/s2.md): Estructura básica de un programa en C++ y concepto de variable.
 * [Sesión 3 (02/10/2020)](tema3/s3.md): Tipos, variables, expresiones, comentarios, entrada de teclado y conversiones.
 * [Sesión 4 (06/10/2020)](tema3/s4.md): Constantes, la bibliteca matemática y el tipo char.
-* [Sesión 5 (08/10/2020)](): El tipo string, el tipo bool y los operadores lógicos. Repaso de teoría.
+* [Sesión 5 (08/10/2020)](tema4/s5.md): El tipo string, el tipo bool y los operadores lógicos. Repaso de teoría.
