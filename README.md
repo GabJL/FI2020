@@ -13,7 +13,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 
 ## Sesiones de prácticas
 
-* [Práctica 1: Conceptos básicos](docs/p1.md)
+* [Práctica 1: Conceptos básicos](prácticas/p1.md)
 
 ## Parciales y exámenes
 
