@@ -8,4 +8,4 @@ Una vez vistos los elementos básicos del lenguajes veremos como estructurar las
 4. Anidamiento de estructuras de control
 
 ## Sesiones:
-* Sesión X (XX/XX/2020)
+* [Sesión 6 (13/10/2020)](tema4/s6.md): Sentencias de selección simples y binarias.
