@@ -9,3 +9,4 @@ Una vez vistos los elementos básicos del lenguajes veremos como estructurar las
 
 ## Sesiones:
 * [Sesión 6 (13/10/2020)](tema4/s6.md): Sentencias de selección simples y binarias.
+* [Sesión 7 (15/10/2020)](tema4/s7.md): Sentencias de selección múltiples y switch.
