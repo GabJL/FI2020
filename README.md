@@ -15,6 +15,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 
 * [Práctica 1: Conceptos básicos](prácticas/p1.md)
 * [Práctica 2: Sentencias de selección](prácticas/p2.md)
+* [Práctica 3: Sentencia de repetición `while`](prácticas/p3.md)
 
 ## Parciales y exámenes
 
