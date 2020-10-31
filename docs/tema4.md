@@ -14,3 +14,4 @@ Una vez vistos los elementos básicos del lenguajes veremos como estructurar las
 * [Sesión 9 (22/10/2020)](tema4/s9.md): Seguimos practicando con la sentencia de repetición (bucle `while`)
 * [Sesión 10 (27/10/2020)](tema4/s10.md): Presentamos los otros bucles, `do-while` y `for`, centrándonos en este último.
 * [Sesión 11 (29/10/2020)](tema4/s11.md): Ejercicios sobre bucles: factorial y variante y posiciones del 12.
+* [Sesión 12 (30/10/2020)](tema4/s12.md): Ejercicios sobre bucles: Sable láser y figuras.
