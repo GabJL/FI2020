@@ -4,15 +4,15 @@
 using namespace std;
 
 int main(){
-	int cantidad = 0;
-	char letra;
+  int cantidad = 0;
+  char letra;
 
-	cout << "Introduce un texto acabado en ENTER: ";
-	letra = cin.get();
-	while(letra != '\n'){
-		while(letra == ' '){ // Espacios antes de la palabra
-  		letra = cin.get();
-		}
+  cout << "Introduce un texto acabado en ENTER: ";
+  letra = cin.get();
+  while(letra != '\n'){
+    while(letra == ' '){ // Espacios antes de la palabra
+      letra = cin.get();
+    }
     
     if(letra != '\n'){ // La contamos si realmente es una palabra
       cantidad++;  
@@ -22,6 +22,6 @@ int main(){
       letra = cin.get();
     }
   }
-	cout << "Hay " << cantidad << " palabras" << endl;
-	return 0;
+  cout << "Hay " << cantidad << " palabras" << endl;
+  return 0;
 }
