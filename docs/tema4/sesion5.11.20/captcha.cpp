@@ -4,20 +4,25 @@
 using namespace std;
 
 int main(){
-	int numero = 0;
-	char letra;
+    char letra;
+    int digito, numero = 0;
+    cout << "Introduce la palabra: ";
+    // Leer letras hasta encontrar el salto de linea (ENTER)
+    letra = cin.get(); // Lectura adelantada
+    cout << "Palabra: ";
+    while(letra != '\n' ){ // El '\n' es el ENTER ('\t' tabulador)
+        // Hago cosas con letra
+        // Si no es 0 a 9 -> Escribir
+        if(letra < '0' || letra > '9'){
+            cout << letra;
+        } else { // si es un numero
+            digito = letra - '0'; // int(letra) - int('0'); // debo convertirlo a número
+            numero = numero*10 + digito; // y acumularlo
+        }
+        letra = cin.get();
+    }
+    cout << endl << "Numero: " << numero << endl;
 
-	cout << "Introduzca la palabra: ";
-	letra = cin.get();
-	cout << "Palabra: ";
-	while( letra != '\n'){
-		if(letra >= '0' && letra <= '9'){
-			numero = numero * 10 + (letra - '0');
-		} else {
-			cout << letra;
-		}
-		letra = cin.get();
-	}
-	cout << endl << "Numero: " << numero << endl;
-	return 0;
+
+    return 0;
 }
