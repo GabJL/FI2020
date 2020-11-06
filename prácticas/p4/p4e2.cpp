@@ -1,4 +1,4 @@
-/ Ejercicio 2: Es primo o no (versión simple)
+// Ejercicio 2: Es primo o no (versión simple)
 #include <iostream>
 
 using namespace std;
