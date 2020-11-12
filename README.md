@@ -20,7 +20,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 
 ## Parciales y exámenes
 
-* Parcial 1
+* [Parcial 1](evaluacion/parcial1.md)
 * Parcial 2
 * Parcial 3
 * Examen de la primera convocatoria ordinaria
