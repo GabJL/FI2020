@@ -20,14 +20,14 @@
 
 Modificamos el anterior para añadir un procedimiento y otras funciones que como peculiaridad no tienen parámetros.
 
-[Código](sesion17.11.20/cilindro-B.cpp)
+[Código](Sesion17.11.20/cilindro-B.cpp)
 
 ### Cilindro C 
 *(The Revenge of the Cilindro) Modifique el ejercicio anterior del cilindro para añadir una función que solicite y lea el radio y la altura del mismo (si se lee un valor incorrecto debe volver a solicitarlo)*
 
 Modificamos el anterior para añadir un procedimiento con parámetros de salida. 
 
-[Código](sesion17.11.20/cilindro-C.cpp)
+[Código](Sesion17.11.20/cilindro-C.cpp)
 
 ### Punto de corte
 
@@ -43,7 +43,7 @@ Para hacerlo tenemos dos posibilidades:
 
 Por otro lado como vamos a leer dos rectas se decidió hacer otros procedimiento (devuelve dos valores) para su lectura.
 
-[Código](sesion17.11.20/lineas.cpp)
+[Código](Sesion17.11.20/lineas.cpp)
 
 ### Combinatorios
 
@@ -51,6 +51,6 @@ Ejemplo sencillo sobre uso de varias funciones que se llaman entre sí.
 
 Se utiliza para mostrar la diferencia entre usar prototipos (el orden de la implementación no es relevante) o sin prototipos (hay que cuidar el orden para que el ámbito de las funciones sea correcto).
 
-Implementación con prototipos: [Código](sesion17.11.20/combinatorio_prototipo.cpp)
+Implementación con prototipos: [Código](Sesion17.11.20/combinatorio_prototipo.cpp)
 
-Implementación sin prototipos: [Código](sesion17.11.20/combinatorio_sin_prototipo.cpp)
+Implementación sin prototipos: [Código](Sesion17.11.20/combinatorio_sin_prototipo.cpp)
