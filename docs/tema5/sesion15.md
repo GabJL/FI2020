@@ -3,7 +3,7 @@
 ## Contenidos vistos en la clase
 
 ### Tema 5
-* Empezamos el tema 4 introduciendo la necesidad de modularizar el código (dividirlo en pequeños trozos más manejables).
+* Empezamos el tema 5 introduciendo la necesidad de modularizar el código (dividirlo en pequeños trozos más manejables).
 * Vemos como se crea una función y cómo se utiliza
 * Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233713/mod_resource/content/0/Tema%205.pdf) (páginas 1-19).
   
