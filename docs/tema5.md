@@ -11,3 +11,4 @@ Con lo visto en los temas anteriores ya podemos hacer cualquier programa pero in
 ## Sesiones:
 * [Sesión 15 (12/11/2020)](tema5/sesion15.md): Introducción a funciones y cómo crear y usar funciones.
 * [Sesión 16 (17/11/2020)](tema5/sesion16.md): Ámbitos de los identificadores y parámetros de salida.
+* [Sesión 17 (19/11/2020)](tema5/sesion17.md): Prototipos de las funciones.
