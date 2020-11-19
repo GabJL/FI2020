@@ -15,7 +15,7 @@
 
 El ejercicio permite repasar el uso de parámetros de salida y también cómo usar el return con un parámetro de salida adicional.
 
-[Código](Sesion19.11.20/conversor temperatura.cpp)
+[Código](Sesion19.11.20/conversor_temperatura.cpp)
 
 ### Número combinatorio
 Es un ejemplo para mostrar cómo los prototipos permiten el cambio de orden de las funciones:
