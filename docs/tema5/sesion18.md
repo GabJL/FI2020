@@ -15,8 +15,10 @@
 * Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233713/mod_resource/content/0/Tema%205.pdf) (páginas 32 a 35).
 
 ### Tema 6
-* Empezamos el tema 5, mostrando cómo definir tipos con __typedef__
-* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233713/mod_resource/content/0/Tema%205.pdf) (páginas 1 a 35).
+* Empezamos el tema 5, mostrando cómo definir tipos con `typedef`.
+* Luego vimos la necesidad de manejar muchas variables igual  (mismo tipo de información) de forma programática e introducimos el concepto de `àrray`.
+
+* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 1 a 10).
   
 ## Códigos utilizados
 
