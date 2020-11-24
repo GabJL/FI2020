@@ -11,4 +11,5 @@ Hasta ahora hemos trabajado con datos simples (números, letras, valores lógico
 7. Búsqueda y ordenación
 
 ## Sesiones:
-* Sesión X (XX/XX/2020)
+* [Sesión 18 (23/11/2020)](tema5/sesion18.md): Inicio del tema 6. Definición de tipos propios. El tipo array.
+
