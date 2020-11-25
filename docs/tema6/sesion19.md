@@ -38,6 +38,7 @@ Comentarios:
 * Mayor de un array: como valor inicial del mayor podemos suponer que es el primero (Apartado G).
 * Definición de otro tipo de array en este caso con tipo base bool (Apartado H).
 * Una función que crea un array a partir de los valores de otro y el uso de un array de bool (Apartado I).
+
 [Código](sesion25.11.20/diciembreII.cpp)
 
 ### Estudio en diciembre (III)
