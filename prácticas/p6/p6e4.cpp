@@ -1,13 +1,12 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 // Funciones
-int esDivisor(int i, int N){
+int es_divisor(int i, int N){
 	return N%i == 0;
 }
 
-bool esPrimo(int N){
+bool es_primo(int N){
 	int i = 2;
 
 	while(N%i != 0) i++;
@@ -15,7 +14,7 @@ bool esPrimo(int N){
 	return (i == N);
 }
 
-int vecesDivide(int i, int N){
+int veces_divide(int i, int N){
 	int contador = 0;
 	while(N%i == 0){ 
 		N = N/i;
@@ -36,12 +35,12 @@ int main()
 
 	for(int i = 2; i <= max; i++)
 	{
-		if(esPrimo(i)){
-			if(esDivisor(i, a) or esDivisor(i, b)){
-				vecesA = vecesDivide(i,a);
-				vecesB = vecesDivide(i,b);
+		if(es_primo(i)){
+			if(es_divisor(i, a) or es_divisor(i, b)){
+				vecesA = veces_divide(i,a);
+				vecesB = veces_divide(i,b);
 				if(vecesA > vecesB) 	mcm = mcm*pow(i,vecesA);
-				else					mcm = mcm*pow(i,vecesB);
+				else			mcm = mcm*pow(i,vecesB);
 			}
 		}
 	}
