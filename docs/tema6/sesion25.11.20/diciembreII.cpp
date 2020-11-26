@@ -3,75 +3,109 @@
 
 using namespace std;
 
-const int MAX = 31;
+// Constantes
+const int MAX_DIAS = 31;
+// Definición de tipos
+typedef array<int, MAX_DIAS> THorasEstudio;
+typedef array<bool, MAX_DIAS> TDiasLibres;
 
-// Apartado A
-typedef array<int, MAX> TEstudio;
-
-// Apartado H
-typedef array<bool, MAX> TDiasLibres;
-
-// Apartado B
-void leerHoras(TEstudio &e){
-	for(int i = 0; i < MAX; i++){
-		cout << "Horas del dia " << i+1 << ": ";
-		cin >> e[i];
-	}
-}
-
-// Apartado C
-int horasTotales(const TEstudio &e){
-	int total = 0;
-	for(int i = 0; i < MAX; i++){
-		 total += e[i];
-	}
-	return total;
-}
-
-// Apartado E
-int cantidadDiasLibres(const TEstudio &e){
-	int cantidad = 0;
-	for(int i = 0; i < MAX; i++){
-		if(e[i] == 0) cantidad++;
-	}
-	return cantidad;
-}
-
-// Apartado G
-int diaMasEstudio(const TEstudio &e){
-	int dia = 0; // Consideramos que el primer día es cuando estudio más
-	for(int i = 1; i < MAX; i++){
-		if(e[i] > e[dia]){
-			dia = i;
-		}
-	}
-	return dia + 1; // La pos 0 es día 1, la 1 es dia 2...
-}
-
-// Apartado I
-void diasLibres(const TEstudio &e, TDiasLibres &l){
-	for(int i = 0; i < MAX; i++){
-		l[i] = (e[i] == 0);
-	}
-}
+// Prototipos o funciones
+THorasEstudio pedir_horas_estudio();
+int calcular_horas_total(const THorasEstudio &h);
+int numero_dias_libres(const THorasEstudio &h);
+int dia_mas_estudioso(const THorasEStudio &h);
+void dias_libres(const THorasEstudio &h, TDiasLibres &d);
 
 int main(){
-	// Apartado D
-	TEstudio diciembre;
-	leerHoras(diciembre);
-	cout << "En total estudiaremos " << horasTotales(diciembre) << " horas" << endl;
-	// Apartado F
-	cout << "La cantidad media de horas/dia es " << horasTotales(diciembre)/(MAX*1.0 - cantidadDiasLibres(diciembre)) << endl;
-	// Uso de apartado G
-	cout << "El dia que mas estudio es el " << diaMasEstudio(diciembre) << endl;
+    THorasEstudio horas;
+    TDiasLibres libres;
+    int total_h, dia;
 
-	// Uso de apartado I
-	TDiasLibres libres;
-	diasLibres(diciembre, libres);
-	cout << "Los dias libres en diciembre son: ";
-	for(int i = 0; i < MAX; i++)
-		if(libres[i]) cout << i+1 << " ";
-	cout << endl;
+    horas = pedir_horas_estudio();
 
-	return 0;
+    total_h = calcular_horas_total(horas);
+    cout << "En diciembre estudiaras " << total_h << " horas " << endl;
+
+    cout << "Las horas medias estudiadas son: " << total_h/(MAX_DIAS - numero_dias_libres(horas)) << endl;
+
+    dia = dia_mas_estudioso(horas);
+    cout << "El dia que estudie mas es: " << dia << " y estudio " << horas[dia - 1] << " horas" << endl;
+    dias_libres(horas, libres);
+    cout << "Los dias libres son: ";
+    for(int i = 0; i < MAX_DIAS; i++){
+        if(libres[i]){
+            cout << i+1 << " ";
+        }
+    }
+    cout << endl;
+    return 0;
+}
+
+// Funciones si se usa prototipos
+THorasEstudio pedir_horas_estudio(){
+    THorasEstudio res;
+    int dia;
+    // Posicion es el día - 1
+    // Dia es la posicion + 1
+    for(int pos = 0; pos < MAX_DIAS; pos++){
+        dia = pos + 1;
+        cout << "Dime las horas de estudio del dia " << dia << " ";
+        cin >> res[pos];
+    }
+
+    return res;
+}
+
+// Parametros:
+// - Tipo simple -> Entrada (no se modifica)    -> TIPO VAR
+//               -> Salida (se modifica)        -> TIPO & VAR
+// - Tipo complejo -> Entrada (no se modifica)  -> const TIPO & VAR
+//                 -> Salida (se modifica)      -> TIPO & VAR
+
+int calcular_horas_total(const THorasEstudio &h){
+    int total = 0;
+
+    for(int i = 0; i < MAX_DIAS;i++){
+        total += h[i]; // total = total + h[i];
+    }
+
+    return total;
+}
+
+int numero_dias_libres(const THorasEstudio &h){
+    int dias_libres = 0;
+    
+    for(int i = 0; i < MAX_DIAS; i++){
+        if(h[i] == 0){
+            dias_libres++;
+        }
+    }
+
+    return dias_libres;
+}
+
+int dia_mas_estudioso(const THorasEStudio &h){
+    int pos_mayor = 0;
+    int max_horas = h[0];
+
+    for(int i = 0; i < MAX_DIAS; i++){
+        // h[i] <- Lo que he estudiado este dia
+        // pos_mayor <- La posición del dia que más horas he estudiado hasta ahora
+        if(h[i] > max_horas){
+            pos_mayor = i;
+            max_horas = h[i];
+        }
+    }
+    // Recordad: dia es la posición + 1 (pos 0 -> Dia 1, pos 1 -> Dia 2...)
+    return pos_mayor + 1;
+}
+
+void dias_libres(const THorasEstudio &h, TDiasLibres &d){
+    for(int i = 0; i < MAX_DIAS; i++){
+        if(h[i] == 0){
+            d[i] = true;
+        } else {
+            d[i] = false;
+        }
+    }
 }
