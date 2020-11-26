@@ -5,7 +5,7 @@
 ### Tema 6
 * Utilizamos un par de ejercicios de ejemplo para ir repasando y afianzando conocimiento sobre `array`s.
 * Luego vemos una operación típica sobre `array`s como es la búsqueda.
-* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 10-16).
+* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 10-15).
   
 ## Códigos utilizados
 
@@ -41,16 +41,3 @@ Comentarios:
 
 [Código](sesion25.11.20/diciembreII.cpp)
 
-### Estudio en diciembre (III)
-* *Modifica el anterior para añadir los siguiente cálculos (tras realizar cada función añada al mainsu llamada):*
-* *J) En el `main` añada el código necesario para comprobar si hay algún día que tengamos planificado estudiar más de 8h.*
-* *K) Realice una función que nos cuál es el primer día libre.* 
-* *L) Realice otra función que nos indique cuál es el último día planificado de estudio (intente hacerla eficientemente).*
-
-Comentario:
-* Las siguientes funciones requiere haber entendido bien la parte de búsqueda.
-* Un bucle que acaba cuando encuentras una condición (Apartado J). Hay que recordar en siempre comprobar que el índice no se pasa del límite del array.
-* Similar al previo y el valor que nos interesa es el índice cuando acaba (Apartado K).
-* Similar a los dos previos pero para hacerlo eficiente empezamos por el final y buscamos el primer día no ocupado (Apartado L).
-
-[Código](sesion25.11.20/diciembreIII.cpp)
