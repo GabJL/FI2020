@@ -1,4 +1,4 @@
-# Sesión del 23/11/2020
+# Sesión del 24/11/2020
 
 ## Contenidos vistos en la clase
 
