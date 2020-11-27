@@ -5,7 +5,7 @@
 ### Tema 6
 * Utilizamos un par de ejercicios de ejemplo para ir repasando y afianzando conocimiento sobre `array`s.
 * Luego vemos una operación típica sobre `array`s como es la búsqueda.
-* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 10-15).
+* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 10-14).
   
 ## Códigos utilizados
 
