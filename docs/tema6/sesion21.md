@@ -28,5 +28,6 @@ Este ejercicio nos permite utilizar de forma básica un string:
 * Los apartados A-D lo usamos como tipo básico. Es decir, nos da igual que sean palabras o sean números (por ejemplo leer hasta 0, contar cuántos se leyeron y el mayor).
 * En el apartado E usaremos el operador `+ ` para ir creando el texto y el `[] ` para acceder a la primera letra
 * En el apartado F hacemos un recorrido completo sobre cada letra cambiándola.
+* En el apartado H hay que tener cuidado que para usar `+` para concatenar el primer operando debe ser siempre un `string`. 
 
 [Código](sesion3.12.20/string.cpp)
