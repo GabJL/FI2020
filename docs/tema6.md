@@ -14,3 +14,4 @@ Hasta ahora hemos trabajado con datos simples (números, letras, valores lógico
 * [Sesión 18 (24/11/2020)](tema5/sesion18.md): Inicio del tema 6. Definición de tipos propios. El tipo array.
 * [Sesión 19 (26/11/2020)](tema6/sesion19.md): Ejercicios básicos sobre arrays.
 * [Sesión 20 (27/11/2020)](tema6/sesion20.md): Repaso sobre arrays y arrays de frecuencia.
+* [Sesión 21 (3/12/2020)](tema6/sesion21.md): String.
