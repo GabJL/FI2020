@@ -21,6 +21,7 @@
 * *E) Indique el acrónimo del texto leído*
 * *F) Realice una función que reciba una palabra y la modifique pasándola a mayúscula
 * *G) Use la función para escribir el acrónimo en mayúscula*
+* *H) Haga una función que acorte el acrónimo a 3 letras (si es mayor de 3 letras). El acrónimo acortado está formada por las 2 primeras letras del acrónimo y la última.*
 
 
 Este ejercicio nos permite utilizar de forma básica un string:
