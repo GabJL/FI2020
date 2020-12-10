@@ -15,3 +15,4 @@ Hasta ahora hemos trabajado con datos simples (números, letras, valores lógico
 * [Sesión 19 (26/11/2020)](tema6/sesion19.md): Ejercicios básicos sobre arrays.
 * [Sesión 20 (27/11/2020)](tema6/sesion20.md): Repaso sobre arrays y arrays de frecuencia.
 * [Sesión 21 (3/12/2020)](tema6/sesion21.md): String.
+* [Sesión 22 (10/12/2020)](tema6/sesion22.md): Matrices.
