@@ -20,6 +20,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 * [Práctica 5: Subprogramas básicos](prácticas/p5.md)
 * [Práctica 6: Subprogramas (II)](prácticas/p6.md)
 * [Práctica 7: Arrays](prácticas/p7.md)
+* [Práctica 8: Matrices y String](prácticas/p8.md)
 
 ## Parciales y exámenes
 
