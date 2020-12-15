@@ -16,7 +16,7 @@ Comentario sobre la solución:
   * Directamente podemos calcular el valor de cada posición calculando la distancia hamming a los puntos iniciales y luego calcular el mínimo.
   * Ir simulando la expansión y cada iteración extender la plaga una casilla. Esto implica ir mirando todas las casillas cercanas. Haremos esta solución.
 
-[Código de la solución 1](sesion15.12.20/apocalipsis_zombie1.cpp)
+[Código de la solución 1](sesion15.12.20/apocalisis_zombie1.cpp)
 
-[Código de la solución 2](sesion15.12.20/apocalipsis_zombie2.cpp)
+[Código de la solución 2](sesion15.12.20/apocalisis_zombie1.cpp)
 
