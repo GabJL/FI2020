@@ -7,7 +7,7 @@
   * Son `array` donde cada elemento es a su vez otro `array`.
   * Se accede a las posiciones de con el operador `[][]`, donde el primero indica la fila y la segunda la columna.
   * Recorrerla matriz requiere un doble bucle. Dependiendo si quieres recorrer por columnas o filas, se deben intercambiar de orden los bucles
-* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 28-33).
+* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 28-32).
   
 ## Códigos utilizados
 
