@@ -18,5 +18,5 @@ Comentario sobre la solución:
 
 [Código de la solución 1](sesion15.12.20/apocalisis_zombie1.cpp)
 
-[Código de la solución 2](sesion15.12.20/apocalisis_zombie1.cpp)
+[Código de la solución 2](sesion15.12.20/apocalisis_zombie2.cpp)
 
