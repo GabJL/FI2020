@@ -27,4 +27,4 @@ texto_descifrado = descifrar(texto_cifrado, clave);
 
 Fíjese que el array `clave` indica el orden: como `clave[0]` es `1` indica que el texto descifrado empieza con la letra de la posición `1` del texto cifrado (la `'h'`), luego como `clave[1]` es `3` indica que la siguiente letra es la de la posición `3` (la `'o'`), y así sucesivamente.
 
-[Código de la solución](parcial3/evaluacion3e2.cpp)
+[Código de la solución](parcial3/evalaucion3e2.cpp)
