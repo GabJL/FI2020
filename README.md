@@ -19,12 +19,14 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 * [Práctica 4: Sentencia de repetición (avanzado)](prácticas/p4.md)
 * [Práctica 5: Subprogramas básicos](prácticas/p5.md)
 * [Práctica 6: Subprogramas (II)](prácticas/p6.md)
+* [Práctica 7: Arrays](prácticas/p7.md)
+* [Práctica 8: Matrices y String](prácticas/p8.md)
 
 ## Parciales y exámenes
 
 * [Parcial 1](evaluacion/parcial1.md)
 * [Parcial 2](evaluacion/parcial2.md)
-* Parcial 3
+* [Parcial 3](evaluacion/parcial3.md)
 * Examen de la primera convocatoria ordinaria
 * Examen de la segunda convocatoria ordinaria
 
