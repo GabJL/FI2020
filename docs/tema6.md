@@ -19,4 +19,3 @@ Hasta ahora hemos trabajado con datos simples (números, letras, valores lógico
 * [Sesión 23 (15/12/2020)](tema6/sesion23.md): Más ejercicios de matrices y repaso.
 * [Sesión 24 (18/12/2020)](tema6/sesion24.md): Registros.
 * [Sesión 25 (22/12/2020)](tema6/sesion25.md): Arrays incompletos: definición y operaciones básicas.
-* [Sesión 26 (07/01/2021)](tema6/sesion26.md): Arrays incompletos y ordenación.
