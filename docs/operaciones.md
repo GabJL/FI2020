@@ -39,7 +39,7 @@ Una cuestión importante de todos ellos es que si se observa ninguno de estas op
 ## Borrar
 
 * [Borrar posición en array desordenado](oper/borrar-desordenado.md)
-* [Borrar posiciñon en array ordenado](oper/borrar-ordenado.md)
+* [Borrar posición en array ordenado](oper/borrar-ordenado.md)
 * [Borrar valor](oper/borrar-valor.md)
 
 ## Lectura y escritura
