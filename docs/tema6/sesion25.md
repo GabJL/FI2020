@@ -8,7 +8,7 @@
 * Llevaremos ambas cosas (array y tamaño) juntos mediante el uso de un registro.
 * Ahora el acceso es un poco diferente y en los recorridos habrá que usar el tamaño real en vez del tamaño máximo del array.
 * Aparecen nuevas operaciones como añadir elementos y eliminarlos.
-* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 47-50).
+* Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 47-49).
   
 ## Códigos utilizados
 
@@ -30,20 +30,4 @@ En este ejercicio se practican los arrays incompletos y las operaciones de inser
 * El escribir es un bucle normal como los que hemos hecho en los ejercicios de diciembre pero en vez de ir hasta `MAX` hay que ir hasta el tamaño del array.
 * En el `main` solo hay que leer con lectura adelantada, ni siquiera hay que comprobar si está lleno o si ya está el elemento ya que las funciones ya se encargan de todas esas comprobaciones. 
 
-
 [Código](sesion22.12.20/raro.cpp)
-
-### mcm y MCD everywhere
-* *A) Defina un tipo que nos permita almacenar a lo sumo 200 enteros*
-* *B) Cree una función que reciba un número, nos devuelva un array que contenga la descomposición en factores primos del número. Por ejemplo para 12 devolvería el array `{1, 2, 2, 3}`*
-* *C) Cree la función inversa a la previa, es decir a partir de la descomposición en factores primos devuelva el número.*
-* *D) Diseñe una función que calcule la intersección de dos array (comunes con la menor cantidad de repeticiones posibles)*
-* *E) Diseñe una función que calcule la unión de dos arrays (comunes y no comunes con la mayor cantidad de repeticiones posibles)*
-* *F) El `main` debe leer dos números y calcular sus descomposiciones (B) y luego calcular el MCD (D->C) y mcm (E->C).*
-
-Este ejercicio tiene varias peculiaridades que lo hacen interesante:
-
-* El array se rellena de forma automática y no leyendo de teclado
-* Se trabajan con múltiples arrays de forma simultánea y que van por posiciones diferentes y hay que llevar varios índices.
-
-[Código](sesion22.12.20/mcmymcd.cpp)
