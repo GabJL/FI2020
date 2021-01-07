@@ -32,4 +32,4 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 
 ## Otros
 
-...
+* [Operaciones sobre arrays](docs/operaciones.md)
