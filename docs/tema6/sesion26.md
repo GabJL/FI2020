@@ -6,6 +6,7 @@
 * Ejercicio de repaso de los arrays incompletos.
 * Además vemos cómo ordenar un array de números y las operaciones de inserción y borrado de un array:
   * Como no se pueden eliminar ni añadir posiciones, debemos desplazar de forma apropiada un array.
+  * Los código genéricos sobre las operaciones se pueden ver [aquí](../operaciones.md)
 * Se puede tener más información en los [apuntes](https://eii.cv.uma.es/pluginfile.php/233727/mod_resource/content/2/Tema%206.pdf) (páginas 50 y 57-64).
   
 ## Códigos utilizados
