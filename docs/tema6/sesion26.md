@@ -23,6 +23,6 @@ Este ejercicio tiene varias peculiaridades que lo hacen interesante:
 
 * El array se rellena de forma automática y no leyendo de teclado
 * Se pueden hacer dos versiones:
-  * Una sencilla usando las funciones tradicionales (insertar, estar, contar...): [Código](sesion07.01.21/mcmymcd_2.cpp)
+  * Una sencilla usando las funciones tradicionales (insertar, estar, contar...): [Código](sesion07.01.21/mcmymcd_v2.cpp)
   * Otra más compleja pero más eficiente donde se trabajan con múltiples arrays de forma simultánea y que van por posiciones diferentes y hay que llevar varios índices: [Código](sesion07.01.21/mcmymcd.cpp)
 * En clase vimos el primer acercamiento.
