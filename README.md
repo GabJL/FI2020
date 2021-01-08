@@ -21,6 +21,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 * [Práctica 6: Subprogramas (II)](prácticas/p6.md)
 * [Práctica 7: Arrays](prácticas/p7.md)
 * [Práctica 8: Matrices y String](prácticas/p8.md)
+* [Práctica 9: Registros y Arrays incompletos](prácticas/p9.md)
 
 ## Parciales y exámenes
 
