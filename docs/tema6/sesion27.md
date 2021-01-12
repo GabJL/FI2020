@@ -16,4 +16,4 @@ Los código genéricos sobre las operaciones se pueden ver [aquí](../operacione
 
 ### Ejercicio de películas
 
-La solución a los 6 primeros aparados del [ejercicio de array de registro de películas](https://eii.cv.uma.es/pluginfile.php/233747/mod_resource/content/1/Ejercicio%20de%20clase%20%28array%20de%20registros%29.pdf) se puede ver [aquí](sesion12.01.21/peliculas.cpp) (para poder usar ese código necesita el [fichero con las películas](sesion12.0.21/movies-reducida.txt)).
+La solución a los 6 primeros aparados del [ejercicio de array de registro de películas](https://eii.cv.uma.es/pluginfile.php/233747/mod_resource/content/1/Ejercicio%20de%20clase%20%28array%20de%20registros%29.pdf) se puede ver [aquí](sesion12.01.21/peliculas.cpp) (para poder usar ese código necesita el [fichero con las películas](sesion12.01.21/movies-reducida.txt)).
