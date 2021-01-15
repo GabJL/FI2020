@@ -40,9 +40,11 @@ int buscar(const TListaPalabras &lp, string palabra){
 }
 
 void insertar(TListaPalabras &lp, string palabra){
-    lp.palabras[lp.tam].palabra = palabra;
-    lp.palabras[lp.tam].cantidad = 1;
-    lp.tam++;
+    if(lp.tam < MAX){
+        lp.palabras[lp.tam].palabra = palabra;
+        lp.palabras[lp.tam].cantidad = 1;
+        lp.tam++;
+    }
 }
 
 void leer(TListaPalabras &lp){
