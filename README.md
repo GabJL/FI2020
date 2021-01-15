@@ -22,6 +22,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 * [Práctica 7: Arrays](prácticas/p7.md)
 * [Práctica 8: Matrices y String](prácticas/p8.md)
 * [Práctica 9: Registros y Arrays incompletos](prácticas/p9.md)
+* [Práctica 10: Arrays de registros](prácticas/p10.md)
 
 ## Parciales y exámenes
 
