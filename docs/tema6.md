@@ -22,3 +22,4 @@ Hasta ahora hemos trabajado con datos simples (números, letras, valores lógico
 * [Sesión 26 (07/01/2021)](tema6/sesion26.md): Arrays incompletos y ordenación.
 * [Sesión 27 (12/01/2021)](tema6/sesion27.md): Inserción/eliminación en arrays ordenados. Ejemplo de array de registros.
 * [Sesion 28 (14/01/2021)](tema6/sesion28.md): Ejercicios de array de registros (películas 2 y febrero de 2020 ejercicio 3 parte 1)
+* [Sesion 29 (19/01/2021)](tema6/sesion29.md): Ejercicios de examen (feb'20 e3, sep'20 e2 parte 1)
