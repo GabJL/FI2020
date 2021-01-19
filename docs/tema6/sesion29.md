@@ -13,5 +13,5 @@ Solución el [ejercicio 3 del examen de febrero](https://eii.cv.uma.es/pluginfil
 
 ### Ejercicio 2 de Septiembre de 2020
 
-Solución el [ejercicio 3 del examen de febrero](https://eii.cv.uma.es/pluginfile.php/284862/mod_folder/content/0/ex-TEORIA-SEP20.pdf?forcedownload=1) se puede ver [aquí](sesison19.01.21/sep20e2.cpp).
+Solución el [ejercicio 2 del examen de septiembre](https://eii.cv.uma.es/pluginfile.php/284862/mod_folder/content/0/ex-TEORIA-SEP20.pdf?forcedownload=1) se puede ver [aquí](sesison19.01.21/sep20e2.cpp).
 
