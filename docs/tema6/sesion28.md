@@ -1,4 +1,4 @@
-# Sesión del 12/01/2021
+# Sesión del 14/01/2021
 
 ## Contenidos vistos en la clase
 
