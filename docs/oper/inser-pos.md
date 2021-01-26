@@ -6,7 +6,7 @@ En este caso queremos insertar un valor en una posición concreta (pero válida)
 
 ```cpp
 void insertar_posicion(TLista &l, int pos, int valor){
-  if(l.tam < MAX && pos > 0 && pos <= l.tam){ // Hay hueco y las posiciones son correctas
+  if(l.tam < MAX && pos >= 0 && pos <= l.tam){ // Hay hueco y las posiciones son correctas
     abrir_hueco(l, pos); // desplazamos las posiciones
     l.datos[pos] = valor; // metemos el valor
     l.tam++; // aumentamos el tamaño
