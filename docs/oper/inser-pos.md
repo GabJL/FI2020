@@ -37,7 +37,7 @@ En este caso vamos a considerar que si el array está lleno insertará el valor 
 
 ```cpp
 void insertar_posicion2(TLista &l, int pos, int valor){
-  if((pos > 0 && pos < l.tam) || (pos == l.tam && l.tam < MAX)){ // es una posición válida o si es al final hay hueco
+  if((pos >= 0 && pos < l.tam) || (pos == l.tam && l.tam < MAX)){ // es una posición válida o si es al final hay hueco
     abrir_hueco2(l, pos); // desplazamos las posiciones
     l.datos[pos] = valor; // metemos el valor
     l.tam++; // aumentamos el tamaño
