@@ -8,7 +8,7 @@ Ahora queremos borrar un elemento concreto (nos dirán la posición) en un array
 Código:
 ```cpp
 void eliminar_ordenado(TLista &l, int pos){
-  if(pos > 0 && pos < l.tam){ // Queremos borrar una posición válida
+  if(pos >= 0 && pos < l.tam){ // Queremos borrar una posición válida
     desplazar(l, pos); // Machacamos la posición con el último
     l.tam--; // Decimos que el array tiene uno menos
   }
