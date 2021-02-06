@@ -12,7 +12,7 @@ Ahora queremos borrar un elemento concreto (nos dirán la posición) en un array
 Código:
 ```cpp
 void eliminar_sin_orden(TLista &l, int pos){
-  if(pos > 0 && pos < l.tam){ // Queremos borrar una posición válida
+  if(pos >= 0 && pos < l.tam){ // Queremos borrar una posición válida
     l.datos[pos] = l.datos[l.tam-1]; // Machacamos la posición con el último
     l.tam--; // Decimos que el array tiene uno menos
   }
