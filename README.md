@@ -29,7 +29,7 @@ Tras cada clase subiré las soluciones a los ejercicios abordados y en las prác
 * [Parcial 1](evaluacion/parcial1.md)
 * [Parcial 2](evaluacion/parcial2.md)
 * [Parcial 3](evaluacion/parcial3.md)
-* Examen de la primera convocatoria ordinaria
+* [Examen de la primera convocatoria ordinaria](evaluacion/con_ordinaria1.md)
 * Examen de la segunda convocatoria ordinaria
 
 ## Otros
