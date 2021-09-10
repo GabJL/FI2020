@@ -19,7 +19,6 @@ int main()
 	cout << "Diga un numero: ";
 	cin >> N;
 
-	cout << N;
 	while(i < N/2 && !encontrado)
 	{
 		if(es_primo(i) && es_primo(N-i)){
